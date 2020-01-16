@@ -1,0 +1,37 @@
+@import "../../themes/variables.scss";
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+  &.primary {
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  }
+  transition: background-color 100ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button {
+  background-position: center;
+  transition: background 0.8s;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #999;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 12px 18px;
+  font-size: 16px;
+  outline: none;
+  background-color: transparent;
+  &.primary {
+    color: #ffffff;
+    background-color: $primary-color;
+    box-shadow: 0 0 4px #999;
+  }
+}
+
+button:active {
+  background-size: 100%;
+  transition: background 0s;
+  background-color: rgba(0,0,0,0.07);
+  &.primary {
+  background-color: #6eb9f7;
+  }
+}
