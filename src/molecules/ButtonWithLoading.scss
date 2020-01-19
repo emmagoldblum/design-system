@@ -1,0 +1,13 @@
+@import "../themes/variables";
+.spinner {
+  color: $success-color;
+  animation: spin infinite 1.5s linear;
+  position: absolute;
+  margin-top: 10px;
+  left: calc(50% - 12px);
+}
+
+.button-with-progress {
+  position: relative;
+  display: inline-block;
+}
