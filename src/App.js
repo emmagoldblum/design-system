@@ -1,20 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './themes/App.scss';
-import Button from "./atoms/Button/Button";
+import React from 'react'
+import Button from './atoms/Button/Button'
+import logo from './logo.svg'
+import './themes/App.scss'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Button type="primary" onClick={() => console.log('yeah')} title="Envoyer"/>
-      </header>
-    </div>
-  );
-}
+export const App = () => (
+  <div className="App">
+    <header className="App-header">
+      <img alt="logo" className="App-logo" src={logo} />
+      <p>
+        Edit <code>src/App.js</code> and save to reload.
+      </p>
+      <Button color="primary" title="Envoyer" onClick={() => console.log('yeah')} />
+    </header>
+  </div>
+)
 
-export default App;
+export default App

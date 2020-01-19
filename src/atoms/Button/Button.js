@@ -1,22 +1,25 @@
-import React from 'react'
 import PropTypes from 'prop-types'
+import React from 'react'
 import './Button.scss'
 
-export const Button = ({ type, buttonVariant, disabled, onClick, title }) => <button className={`btn-${buttonVariant} ${type}`} disabled={disabled} onClick={onClick}>{title}</button>;
-
+export const Button = ({ color, buttonVariant, disabled, onClick, title }) => (
+  <button className={`btn-${buttonVariant} ${color}`} disabled={disabled} onClick={onClick}>
+    {title}
+  </button>
+)
 
 Button.propTypes = {
-    type: PropTypes.string,
-    buttonVariant: PropTypes.string,
-    disabled: PropTypes.bool,
-    onClick: PropTypes.func.isRequired,
-    title: PropTypes.string.isRequired
-};
+  buttonVariant: PropTypes.string,
+  color: PropTypes.string,
+  disabled: PropTypes.bool,
+  onClick: PropTypes.func.isRequired,
+  title: PropTypes.string.isRequired
+}
 
 Button.defaultProps = {
-    type: 'default',
-    buttonVariant: 'flat',
-    disabled: false
-};
+  buttonVariant: 'flat',
+  color: 'default',
+  disabled: false
+}
 
 export default Button

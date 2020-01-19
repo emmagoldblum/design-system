@@ -1,0 +1,78 @@
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:jsx-a11y/recommended", "plugin:prettier/recommended"],
+  "plugins": ["jsx-a11y", "prettier", "eslint-plugin-import-order-alphabetical"],
+  "parser": "babel-eslint",
+  "rules": {
+    "arrow-body-style": ["error", "as-needed"],
+    "array-callback-return": ["error"],
+    "camelcase": ["error", { "properties": "always" }],
+    "comma-spacing": "error",
+    "default-case": "error",
+    "eol-last": "error",
+    "eqeqeq": "error",
+    "func-style": ["error", "expression"],
+    "import-order-alphabetical/order": "error",
+    "max-len": ["error", { "code": 120, "ignorePattern": "^import*" }],
+    "no-console": "error",
+    "no-else-return": "error",
+    "no-invalid-this": "error",
+    "no-useless-constructor": "error",
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+    "no-var": "error",
+    "object-shorthand": "error",
+    "prefer-arrow-callback": "error",
+    "prefer-const": "error",
+    "prefer-destructuring": "error",
+    "prefer-template": "error",
+    "require-await": "warn",
+    "react/default-props-match-prop-types": "error",
+    "react/display-name": "off",
+    "react/forbid-prop-types": ["error", { "forbid":  ["any"]}],
+    "react/prefer-stateless-function": "error",
+    "react/no-deprecated": "error",
+    "react/no-find-dom-node": "off",
+    "react/no-unsafe": "error",
+    "react/no-access-state-in-setstate": "error",
+    "react/prop-types": "error",
+    "react/jsx-sort-default-props": "error",
+    "react/sort-prop-types": "error",
+    "spaced-comment": ["error", "never", { "markers": ["/"], "block": { "balanced": true } }],
+    "yoda": ["error", "always"],
+    "prettier/prettier": [
+      "error", {
+        "printWidth": 120,
+        "tabWidth": 2,
+        "useTabs": false,
+        "trailingComma": "none",
+        "singleQuote": true,
+        "bracketSpacing": true,
+        "semi": false,
+        "jsxBracketSameLine": false,
+        "arrowParens": "always"
+      }
+    ],
+    "react/jsx-sort-props": ["error", {
+      "callbacksLast": true,
+      "shorthandFirst": true,
+      "ignoreCase": true,
+      "noSortAlphabetically": false }
+    ]
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2019
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "settings": {
+    "react": {
+      "createClass": "createReactClass",
+      "pragma": "React",
+      "version": "detect"
+    }
+  }
+}
