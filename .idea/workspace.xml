@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/atoms/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Input/Input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/atoms/Input/Input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Input/Input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/themes/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/themes/App.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,8 @@
       <workItem from="1579125178737" duration="1052000" />
       <workItem from="1579204970774" duration="2741000" />
       <workItem from="1579437567392" duration="6986000" />
-      <workItem from="1579473083384" duration="6976000" />
+      <workItem from="1579473083384" duration="7209000" />
+      <workItem from="1579548490341" duration="1344000" />
     </task>
     <servers />
   </component>

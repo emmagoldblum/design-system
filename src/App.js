@@ -12,7 +12,7 @@ export const App = () => {
   return (
     <div className="App">
       <div className="grid-item">
-        <Input label="Email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+        <Input label="Email" name="email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
       </div>
       <div className="grid-item">
         <Input

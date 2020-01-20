@@ -1,3 +1,5 @@
+@import "../../themes/variables";
+
 .input-wrapper {
   margin-top: 0.5rem;
   position: relative;
@@ -7,10 +9,24 @@
 label {
   position: absolute;
   top: -22px;
+  left: 0;
 }
 
-input {
-  padding: 12px 16px;
+.input-root {
+  padding: 0 16px;
   border-radius: 5px;
-  border: 1px solid rgba(0,0,0,0.5);
+  border: 2px solid rgba(0,0,0,0.5);
+  .input-icon {
+    margin-right: 0.5rem;
+  }
+  &.focused {
+    border-color: $primary-color;
+  }
+}
+
+
+input, input:focus {
+  border: none;
+  outline: none;
+  padding: 12px 0;
 }
