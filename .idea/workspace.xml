@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c862e9d-a3de-4c1b-a5b0-733ed4ef378a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/molecules/ButtonWithLoading/ButtonWithLoading.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/molecules/FormInput/FormInput.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/atoms/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Button/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/atoms/Button/Button.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Button/Button.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/atoms/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Input/Input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/atoms/Input/Input.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Input/Input.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/molecules/ButtonWithLoading/ButtonWithLoading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/molecules/ButtonWithLoading/ButtonWithLoading.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/molecules/FormInput/FormInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/molecules/FormInput/FormInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/themes/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/themes/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +163,7 @@
       <workItem from="1579204970774" duration="2741000" />
       <workItem from="1579437567392" duration="6986000" />
       <workItem from="1579473083384" duration="7209000" />
-      <workItem from="1579548490341" duration="9997000" />
+      <workItem from="1579548490341" duration="10491000" />
     </task>
     <servers />
   </component>
