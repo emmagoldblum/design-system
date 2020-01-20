@@ -5,18 +5,20 @@ import React from 'react'
 import Button from '../../atoms/Button/Button'
 import './ButtonWithLoading.scss'
 
-export const ButtonWithLoading = ({ isLoading, ...rest }) => (
+export const ButtonWithLoading = ({ disabled, isLoading, ...rest }) => (
   <div className="button-with-progress">
-    <Button disabled={isLoading} {...rest} />
+    <Button disabled={disabled || isLoading} {...rest} />
     {isLoading && <FontAwesomeIcon className="spinner" icon={faSpinner} />}
   </div>
 )
 
 ButtonWithLoading.propTypes = {
+  disabled: PropTypes.bool,
   isLoading: PropTypes.bool
 }
 
 ButtonWithLoading.defaultProps = {
+  disabled: false,
   isLoading: false
 }
 

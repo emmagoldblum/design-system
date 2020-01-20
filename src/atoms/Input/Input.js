@@ -3,12 +3,25 @@ import PropTypes from 'prop-types'
 import React, { useState } from 'react'
 import './Input.scss'
 
-export const Input = ({ disabled, hasError, icon, label, name, value, onChange, onFocus, onBlur, ...rest }) => {
+export const Input = ({
+  disabled,
+  hasError,
+  icon,
+  label,
+  name,
+  value,
+  onChange,
+  onFocus,
+  onBlur,
+  required,
+  ...rest
+}) => {
   const [isFocused, setIsFocused] = useState(false)
   return (
     <div className="input-wrapper">
       <label
-        className={`input-label ${isFocused && 'focused'} ${disabled && 'disabled'} ${hasError && 'error'}`}
+        className={`input-label ${isFocused && 'focused'} ${disabled && 'disabled'} ${hasError && 'error'} ${required &&
+          'required'}`}
         htmlFor={name}
         id={name}
       >
@@ -51,6 +64,7 @@ Input.propTypes = {
   onBlur: PropTypes.func,
   onChange: PropTypes.func.isRequired,
   onFocus: PropTypes.func,
+  required: PropTypes.bool,
   value: PropTypes.string.isRequired
 }
 
@@ -58,7 +72,8 @@ Input.defaultProps = {
   disabled: false,
   hasError: false,
   onBlur: (k) => k,
-  onFocus: (k) => k
+  onFocus: (k) => k,
+  required: false
 }
 
 export default Input

@@ -20,6 +20,9 @@
   &.error {
     color: $danger-color;
   }
+  &.required:after {
+    content: " *";
+  }
 }
 
 .input-root {

@@ -1,20 +1,23 @@
 @import "../../themes/variables.scss";
 
-button:hover {
+$primary-button-color: lighten($primary-color, 10%) radial-gradient(circle, transparent 1%, lighten($primary-color, 10%) 1%) center/15000%;
+$secondary-button-color: lighten($secondary-color, 10%) radial-gradient(circle, transparent 1%, lighten($secondary-color, 10%) 1%) center/15000%;
+
+.btn:hover {
   &.btn-contained {
     &.primary {
-      background: lighten($primary-color, 10%) radial-gradient(circle, transparent 1%, lighten($primary-color, 10%) 1%) center/15000%;
+      background: $primary-button-color;
     }
     &.secondary {
-      background: lighten($secondary-color, 10%) radial-gradient(circle, transparent 1%, lighten($secondary-color, 10%) 1%) center/15000%;
+      background: $secondary-button-color;
     }
   }
   &.btn-flat {
     &.primary {
-      background: lighten($primary-color, 30%) radial-gradient(circle, transparent 1%, lighten($primary-color, 30%) 1%) center/15000%;
+      background: $primary-button-color
     }
     &.secondary {
-      background: lighten($secondary-color, 30%) radial-gradient(circle, transparent 1%, lighten($secondary-color, 30%) 1%) center/15000%;
+      background: $secondary-button-color;
     }
     &.default {
       background: rgba(0,0,0, 0.07) radial-gradient(circle, transparent 1%, rgba(0,0,0, 0.07) 1%) center/15000%;
@@ -26,24 +29,24 @@ button:hover {
   transition: background-color 100ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-button:active {
+.btn:active {
   background-size: 100%;
   transition: background 0s;
   background-color: rgba(0,0,0,0.07);
   &.btn-contained {
     &.primary {
-      background: lighten($primary-color, 10%) radial-gradient(circle, transparent 1%, lighten($primary-color, 10%) 1%) center/15000%;
+      background: $primary-button-color;
     }
     &.secondary {
-      background: lighten($secondary-color, 10%) radial-gradient(circle, transparent 1%, lighten($secondary-color, 10%) 1%) center/15000%;
+      background: $secondary-button-color;
     }
   }
   &.btn-flat {
     &.primary {
-      background: lighten($primary-color, 30%) radial-gradient(circle, transparent 1%, lighten($primary-color, 30%) 1%) center/15000%;
+      background: $primary-button-color;
     }
     &.secondary {
-      background: lighten($secondary-color, 30%) radial-gradient(circle, transparent 1%, lighten($secondary-color, 30%) 1%) center/15000%;
+      background: $secondary-button-color;
     }
     &.default {
       background: rgba(0,0,0, 0.07) radial-gradient(circle, transparent 1%, rgba(0,0,0, 0.07) 1%) center/15000%;
@@ -51,7 +54,7 @@ button:active {
   }
 }
 
-button {
+.btn {
   background-position: center;
   transition: background 0.8s;
   border: none;

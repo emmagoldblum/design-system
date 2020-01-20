@@ -4,7 +4,7 @@ import './Button.scss'
 
 export const Button = ({ color, variant, disabled, onClick, title, ...rest }) => (
   <button
-    className={`btn-${variant} ${color} ${disabled ? 'btn-disabled' : ''}`}
+    className={`btn btn-${variant} ${color} ${disabled ? 'btn-disabled' : ''}`}
     disabled={disabled}
     onClick={onClick}
     {...rest}

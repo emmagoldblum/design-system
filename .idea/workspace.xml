@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c862e9d-a3de-4c1b-a5b0-733ed4ef378a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/molecules/FormInput/FormInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/molecules/FormInput/FormInput.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/atoms/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Button/Button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/atoms/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Button/Button.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/atoms/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Input/Input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/atoms/Input/Input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Input/Input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/molecules/ButtonWithLoading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/molecules/ButtonWithLoading/ButtonWithLoading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/molecules/ButtonWithLoading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/molecules/ButtonWithLoading/ButtonWithLoading.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/themes/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/themes/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/molecules/ButtonWithLoading/ButtonWithLoading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/molecules/ButtonWithLoading/ButtonWithLoading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/molecules/FormInput/FormInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/molecules/FormInput/FormInput.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +91,7 @@
       <workItem from="1579204970774" duration="2741000" />
       <workItem from="1579437567392" duration="6986000" />
       <workItem from="1579473083384" duration="7209000" />
-      <workItem from="1579548490341" duration="5128000" />
+      <workItem from="1579548490341" duration="6242000" />
     </task>
     <servers />
   </component>
@@ -118,5 +115,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="581" y="41" width="758" height="957" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579555017368" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579556251769">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579556251769" />
   </component>
 </project>
