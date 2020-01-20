@@ -71,6 +71,9 @@ button {
   &.secondary {
     color: $secondary-color;
   }
+  &.disabled {
+    color: dimgrey;
+  }
 }
 
 .btn-contained {

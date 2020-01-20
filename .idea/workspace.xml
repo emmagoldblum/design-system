@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c862e9d-a3de-4c1b-a5b0-733ed4ef378a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/molecules/ButtonWithLoading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/molecules/ButtonWithLoading.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/atoms/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Button/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/atoms/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Button/Button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/atoms/Button/Button.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Button/Button.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atoms/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Input/Input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atoms/Input/Input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Input/Input.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/themes/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/themes/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/themes/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/themes/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +85,7 @@
       <workItem from="1579125178737" duration="1052000" />
       <workItem from="1579204970774" duration="2741000" />
       <workItem from="1579437567392" duration="6986000" />
-      <workItem from="1579473083384" duration="3425000" />
+      <workItem from="1579473083384" duration="6976000" />
     </task>
     <servers />
   </component>
