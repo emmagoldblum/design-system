@@ -6,27 +6,59 @@
   display: inline-block;
 }
 
-label {
+.input-label {
   position: absolute;
   top: -22px;
   left: 0;
+  color: rgba(0,0,0,0.8);
+  &.focused {
+    color: $primary-color;
+  }
+  &.disabled {
+    color: $disabled-color-hard;
+  }
+  &.error {
+    color: $danger-color;
+  }
 }
 
 .input-root {
   padding: 0 16px;
   border-radius: 5px;
-  border: 2px solid rgba(0,0,0,0.5);
-  .input-icon {
-    margin-right: 0.5rem;
-  }
+  border: 2px solid rgba(0,0,0,0.8);
   &.focused {
     border-color: $primary-color;
   }
+  &.disabled {
+    background-color: lighten($disabled-color-soft, 10%);
+    border-color: $disabled-color-hard;
+  }
+  &.error {
+    border-color: $danger-color;
+  }
 }
 
+.input-icon {
+  margin-right: 0.5rem;
+  color: rgba(0,0,0,0.8);
+  &.focused {
+    color: $primary-color;
+  }
+  &.disabled {
+    color: $disabled-color-hard;
+  }
+  &.error {
+    color: $danger-color;
+  }
+}
 
 input, input:focus {
   border: none;
   outline: none;
   padding: 12px 0;
+  font-size: 1rem;
+}
+
+input:disabled {
+  background-color: transparent;
 }

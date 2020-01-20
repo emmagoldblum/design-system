@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c862e9d-a3de-4c1b-a5b0-733ed4ef378a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/molecules/FormInput/FormInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/molecules/FormInput/FormInput.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atoms/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atoms/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Button/Button.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/atoms/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Input/Input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/atoms/Input/Input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Input/Input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/molecules/ButtonWithLoading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/molecules/ButtonWithLoading/ButtonWithLoading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/molecules/ButtonWithLoading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/molecules/ButtonWithLoading/ButtonWithLoading.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/themes/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/themes/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +58,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\EGgol\workspace\design-system\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\EGgol\workspace\design-system\src\molecules\ButtonWithLoading" />
       <recent name="C:\Users\EGgol\workspace\design-system\src\themes" />
       <recent name="C:\Users\EGgol\workspace\design-system\src" />
     </key>
@@ -85,7 +94,7 @@
       <workItem from="1579204970774" duration="2741000" />
       <workItem from="1579437567392" duration="6986000" />
       <workItem from="1579473083384" duration="7209000" />
-      <workItem from="1579548490341" duration="1344000" />
+      <workItem from="1579548490341" duration="5128000" />
     </task>
     <servers />
   </component>
@@ -105,9 +114,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579447165208" />
-    <state x="581" y="41" width="758" height="957" key="find.popup" timestamp="1579449883810">
+    <state x="581" y="41" width="758" height="957" key="find.popup" timestamp="1579555017368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="581" y="41" width="758" height="957" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579449883810" />
+    <state x="581" y="41" width="758" height="957" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579555017368" />
   </component>
 </project>

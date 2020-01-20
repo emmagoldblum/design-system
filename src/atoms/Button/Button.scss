@@ -20,7 +20,7 @@ button:hover {
       background: rgba(0,0,0, 0.07) radial-gradient(circle, transparent 1%, rgba(0,0,0, 0.07) 1%) center/15000%;
     }
   }
-  &.disabled {
+  &.btn-disabled {
     background-color: #c8c8c8 !important;
   }
   transition: background-color 100ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -71,8 +71,8 @@ button {
   &.secondary {
     color: $secondary-color;
   }
-  &.disabled {
-    color: dimgrey;
+  &.btn-disabled {
+    color: $disabled-color-hard;
   }
 }
 
@@ -85,14 +85,14 @@ button {
   &.secondary {
     background-color: $secondary-color;
   }
-  &.disabled {
-    color: dimgrey;
+  &.btn-disabled {
+    color: $disabled-color-hard;
     box-shadow: none;
-    background-color: $disabled-color;
+    background-color: $disabled-color-soft;
   }
 }
 
-.disabled, .disabled:hover, .disabled:active {
-  background-color: $disabled-color;
+.btn-disabled, .btn-disabled:hover, .btn-disabled:active {
+  background-color: $disabled-color-soft;
   cursor: initial;
 }

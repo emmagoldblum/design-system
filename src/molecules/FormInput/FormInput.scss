@@ -1,0 +1,10 @@
+@import "../../themes/variables";
+
+.form-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  .form-input-error {
+    color: $danger-color;
+  }
+}

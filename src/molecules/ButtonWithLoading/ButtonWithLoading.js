@@ -2,7 +2,7 @@ import { faSpinner } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import PropTypes from 'prop-types'
 import React from 'react'
-import Button from '../atoms/Button/Button'
+import Button from '../../atoms/Button/Button'
 import './ButtonWithLoading.scss'
 
 export const ButtonWithLoading = ({ isLoading, ...rest }) => (

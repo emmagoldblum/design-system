@@ -1,8 +1,8 @@
+import { faLock, faUserCircle } from '@fortawesome/free-solid-svg-icons'
 import React, { useState } from 'react'
-import Button from './atoms/Button/Button'
+import { ButtonWithLoading } from './molecules/ButtonWithLoading/ButtonWithLoading'
+import FormInput from './molecules/FormInput/FormInput'
 import './themes/App.scss'
-import { Input } from './atoms/Input/Input'
-import { ButtonWithLoading } from './molecules/ButtonWithLoading'
 
 export const App = () => {
   const [email, setEmail] = useState('')
@@ -12,10 +12,20 @@ export const App = () => {
   return (
     <div className="App">
       <div className="grid-item">
-        <Input label="Email" name="email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+        <FormInput
+          icon={faUserCircle}
+          label="Email"
+          name="email"
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
       </div>
       <div className="grid-item">
-        <Input
+        <FormInput
+          touched
+          error="test de message d'erreur"
+          icon={faLock}
           label="Password"
           name="password"
           type="password"
