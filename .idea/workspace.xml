@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c862e9d-a3de-4c1b-a5b0-733ed4ef378a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/molecules/ButtonWithLoading/ButtonWithLoading.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/molecules/FormInput/FormInput.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/atoms/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Button/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/atoms/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Button/Button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atoms/Button/Button.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Button/Button.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/atoms/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Input/Input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/atoms/Input/Input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Input/Input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/molecules/ButtonWithLoading/ButtonWithLoading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/molecules/ButtonWithLoading/ButtonWithLoading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atoms/Input/Input.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/Input/Input.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/molecules/ButtonWithLoading/ButtonWithLoading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/molecules/ButtonWithLoading/ButtonWithLoading.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/molecules/FormInput/FormInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/molecules/FormInput/FormInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/themes/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/themes/App.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +57,7 @@
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\EGgol\workspace\design-system\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -63,6 +68,84 @@
       <recent name="C:\Users\EGgol\workspace\design-system\src\themes" />
       <recent name="C:\Users\EGgol\workspace\design-system\src" />
     </key>
+  </component>
+  <component name="RunManager" selected="Jest.&lt;ButtonWithLoading /&gt; (1)">
+    <configuration name="&lt;ButtonWithLoading /&gt; (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/molecules/FormInput/FormInput.test.js" />
+      <test-names>
+        <test-name value="&lt;ButtonWithLoading /&gt;" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="&lt;ButtonWithLoading /&gt;" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/molecules/ButtonWithLoading/ButtonWithLoading.test.js" />
+      <test-names>
+        <test-name value="&lt;ButtonWithLoading /&gt;" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="&lt;Button/&gt;.add primary, contained and disabled classNames if passed as props" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/atoms/Button/Button.test.js" />
+      <test-names>
+        <test-name value="&lt;Button/&gt;" />
+        <test-name value="add primary, contained and disabled classNames if passed as props" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="&lt;Input /&gt;" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/atoms/Input/Input.test.js" />
+      <test-names>
+        <test-name value="&lt;Input /&gt;" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="&lt;Input /&gt;.firing focus update classNames of input-root" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/atoms/Input/Input.test.js" />
+      <test-names>
+        <test-name value="&lt;Input /&gt;" />
+        <test-name value="firing focus update classNames of input-root" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.&lt;ButtonWithLoading /&gt; (1)" />
+        <item itemvalue="Jest.&lt;ButtonWithLoading /&gt;" />
+        <item itemvalue="Jest.&lt;Input /&gt;.firing focus update classNames of input-root" />
+        <item itemvalue="Jest.&lt;Input /&gt;" />
+        <item itemvalue="Jest.&lt;Button/&gt;.add primary, contained and disabled classNames if passed as props" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -91,7 +174,7 @@
       <workItem from="1579204970774" duration="2741000" />
       <workItem from="1579437567392" duration="6986000" />
       <workItem from="1579473083384" duration="7209000" />
-      <workItem from="1579548490341" duration="6242000" />
+      <workItem from="1579548490341" duration="9997000" />
     </task>
     <servers />
   </component>
@@ -107,6 +190,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579446958341" />
+    <state width="1899" height="261" key="GridCell.Tab.0.bottom" timestamp="1579560068100">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579560068100" />
+    <state width="1899" height="261" key="GridCell.Tab.0.center" timestamp="1579560068100">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579560068100" />
+    <state width="1899" height="261" key="GridCell.Tab.0.left" timestamp="1579560068100">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579560068100" />
+    <state width="1899" height="261" key="GridCell.Tab.0.right" timestamp="1579560068100">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579560068100" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1579447165208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -115,9 +214,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="581" y="41" width="758" height="957" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579555017368" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579556251769">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579558840787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579556251769" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579558840787" />
   </component>
 </project>

@@ -14,12 +14,10 @@ export const FormInput = ({ error, ...rest }) => {
 }
 
 FormInput.propTypes = {
-  error: PropTypes.string,
-  touched: PropTypes.bool
+  error: PropTypes.string
 }
 
 FormInput.defaultProps = {
-  error: null,
-  touched: false
+  error: null
 }
 export default FormInput

@@ -40,7 +40,7 @@ export const App = () => {
       <div className="grid-item">
         <ButtonWithLoading
           color="primary"
-          disabled={emailError || passwordError}
+          disabled={!!emailError || !!passwordError}
           isLoading={isLoading}
           title="Envoyer"
           variant="contained"

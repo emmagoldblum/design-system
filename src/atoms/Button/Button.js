@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import './Button.scss'
 
-export const Button = ({ color, variant, disabled, onClick, title, ...rest }) => (
+const Button = ({ color, variant, disabled, onClick, title, ...rest }) => (
   <button
     className={`btn btn-${variant} ${color} ${disabled ? 'btn-disabled' : ''}`}
     disabled={disabled}
